@@ -4,8 +4,4 @@ metadata:
   name: mypvc
 spec:
   storageClassName: azurefile
-  volumeMode: Filesystem
-  resources:
-    requests:
-      storage: 1Gi
-    
+  volumeName: foo-pvc    
