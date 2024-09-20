@@ -6,7 +6,7 @@ metadata:
     name: mypod
 spec:
   containers:
-  - name: my-nginx
+  - name: nginx
     image: nginx
     volumeMounts:
     - mountPath: /tmp

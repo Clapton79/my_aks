@@ -4,6 +4,8 @@ metadata:
   name: mypvc
 spec:
   storageClassName: azurefile
-  claimRef:
-    name: mypvc
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 1Gi
     
